@@ -1,0 +1,15 @@
+<div class="container">
+  <div
+    class="gifs row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-xsm-1"
+  >
+    <div
+      col-lg-3
+      col-md-4
+      col-sm-6
+      class="gif mx-auto my-1"
+      *ngFor="let gif of gifs"
+    >
+      <img class="img-fluid" [src]="gif.images.downsized.url" alt="image" />
+    </div>
+  </div>
+</div>

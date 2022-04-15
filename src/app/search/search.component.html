@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row height d-flex justify-content-center align-items-center">
+    <div class="col-md-8">
+      <h2 class="text-center my-4">Search GIFs</h2>
+      <div class="search">
+        <i class="fa fa-search"></i>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Type GIF name to search"
+          #gif
+          (keyup.enter)="search(gif.value)"
+        />
+        <button class="btn btn-primary">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
