@@ -1,5 +1,21 @@
 # GiphyApp
 
+Giffy App is a Web Application that consumes API data from GIPHY.com and renders the data to the user interface. On application load, the application displays a list of trending gifs and has a search input where a user can search for gifs based on the search term, and a different list of gifs is loaded.
+
+## Project Preview
+
+![Giffy App](/src/assets/giffy-preview.png)
+
+## Technologies Used
+
+1. Angular CLI
+2. Bootstrap5
+3. TypeScript
+4. HTML
+5. CSS
+6. GIPHY API
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
 ## Development server
